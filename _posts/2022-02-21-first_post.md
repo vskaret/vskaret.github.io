@@ -9,3 +9,4 @@ Timestamps and links from the fast.ai live coding sessions (and sometimes other 
 * [Install mamba](https://www.youtube.com/watch?v=56sIyFjihEc&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=32m) (python environment thingy)
 * There is a bunch of scripts automating getting setup stuff in fastai's [fastsetup repo](https://github.com/fastai/fastsetup), e.g. [setup-conda.sh](https://github.com/fastai/fastsetup/blob/master/setup-conda.sh) for installing mamba
 * [Using tmux](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=39m), [simple tmux cheatsheet](https://www.themoderncoder.com/simple-tmux-cheatsheet/) and [basic tmux configuration](https://www.themoderncoder.com/basic-tmux-configuration/)
+* [jupyter intro](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=49m)
