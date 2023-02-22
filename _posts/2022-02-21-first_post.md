@@ -17,7 +17,8 @@ Timestamps and links from the fast.ai live coding sessions (and sometimes other 
 * Tip: in general, use the keybindings that the tools offer instead of coming up with your own keybindings as it's easier to switch between environments
 * [It's fine to use pip to install anything that's only reliant on python code. When you install stuff that relies on code outside of python like pytorch (relies on cuda) it's faster to use conda as it also handles the dependencies outside of python. Sometimes you need to use pip as it let's you install something only on your user in cases where you are not admin: pip install -U --user package_name](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=4&t=46m10s)
 * In paperspace, everything on the machine is whiped out after you're finished. However, you have a /storage folder where stuff is stored persistantly. Use this and symlinks (ln -s path_to_file_to_symlink) to not have to install stuff again each time you start the machine
-* In paperspace, you can create a file called .bash.local in storage which will be run everytime you start a notebook. Create symlinks there :)
+* In paperspace, you can create a file called .bash.local in storage which will be run everytime you open the terminal. Create symlinks there :)
+* When opening a paperspace notebook, /run.sh is executed. This script can't be changed, but it will execute /storage/pre-run.sh which might be a better place to put the symlinks and stuff like that
 
 Terminal (bash?) tricks:
 
