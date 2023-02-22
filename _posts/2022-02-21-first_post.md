@@ -11,3 +11,7 @@ Timestamps and links from the fast.ai live coding sessions (and sometimes other 
 * [Using tmux](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=39m), [simple tmux cheatsheet](https://www.themoderncoder.com/simple-tmux-cheatsheet/) and [basic tmux configuration](https://www.themoderncoder.com/basic-tmux-configuration/)
 * [jupyter intro](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=49m)
 * [How to handle python environments with mamba in such a way that one does not need to freeze version numbers and thus do not need to rely as much on docker containers (specifically for data scientists? the point seems to be to facilitate rapid iteration)](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=12m)
+* [Setup a jupyter notebook in paperspace gradient](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=21m50s)
+* [Python debugger and set_trace](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=36m30s)
+* Tip: learn the textual python debugger as its similar to debuggers for other languages so the knowledge generalizes (in contrast to learning properietary tools where you will probably have to re-learn it somewhat)
+* Tip: in general, use the keybindings that the tools offer instead of coming up with your own keybindings as it's easier to switch between environments
