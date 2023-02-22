@@ -4,12 +4,20 @@ I'm a software developer from Mjøndalen in Norway. My first experience with pro
 
 I'm currently following the [fast ai course](https://www.fast.ai/), and will hopefully post a lot about stuff related to that. Jeremy seems like a great teacher.
 
-Timestamps and links from the fast.ai live coding sessions (and sometimes other places) that might be useful:
+Timestamps and links from the fast.ai live coding sessions (and sometimes other places) that might be useful.
+
+Session 1:
 
 * [Install mamba](https://www.youtube.com/watch?v=56sIyFjihEc&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=32m) (python environment thingy)
 * There is a bunch of scripts automating getting setup stuff in fastai's [fastsetup repo](https://github.com/fastai/fastsetup), e.g. [setup-conda.sh](https://github.com/fastai/fastsetup/blob/master/setup-conda.sh) for installing mamba
+
+Session 2:
+
 * [Using tmux](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=39m), [simple tmux cheatsheet](https://www.themoderncoder.com/simple-tmux-cheatsheet/) and [basic tmux configuration](https://www.themoderncoder.com/basic-tmux-configuration/)
 * [jupyter intro](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=49m)
+
+Session 3:
+
 * [How to handle python environments with mamba in such a way that one does not need to freeze version numbers and thus do not need to rely as much on docker containers (specifically for data scientists? the point seems to be to facilitate rapid iteration)](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=12m)
 * [Setup a jupyter notebook in paperspace gradient](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=21m50s)
 * [Python debugger and set_trace](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=36m30s)
@@ -20,7 +28,15 @@ Timestamps and links from the fast.ai live coding sessions (and sometimes other 
 * In paperspace, you can create a file called .bash.local in storage which will be run everytime you open the terminal. Create symlinks there :)
 * When opening a paperspace notebook, /run.sh is executed. This script can't be changed, but it will execute /storage/pre-run.sh which might be a better place to put the symlinks and stuff like that
 
-Terminal (bash?) tricks:
+Session 4:
+
+* Virtues of a great programmer: laziness, impatience and hubris. One way of being lazy is to learn stuff that is re-usable, such as using python for scripts rather than shell because python can be used for more purposes.
+
+Terminal tricks:
 
 * !! last command
 * !$ last token in last command
+* ctrl + u: delete everything left of the cursor
+* ctrl + k: delete everything right of the cursor
+
+For some more terminal tricks check out [this file](https://github.com/vskaret/configs/blob/master/bash_notes).
