@@ -15,3 +15,11 @@ Timestamps and links from the fast.ai live coding sessions (and sometimes other 
 * [Python debugger and set_trace](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=36m30s)
 * Tip: learn the textual python debugger as its similar to debuggers for other languages so the knowledge generalizes (in contrast to learning properietary tools where you will probably have to re-learn it somewhat)
 * Tip: in general, use the keybindings that the tools offer instead of coming up with your own keybindings as it's easier to switch between environments
+* [It's fine to use pip to install anything that's only reliant on python code. When you install stuff that relies on code outside of python like pytorch (relies on cuda) it's faster to use conda as it also handles the dependencies outside of python. Sometimes you need to use pip as it let's you install something only on your user in cases where you are not admin: pip install -U --user package_name](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=4&t=46m10s)
+* In paperspace, everything on the machine is whiped out after you're finished. However, you have a /storage folder where stuff is stored persistantly. Use this and symlinks (ln -s path_to_file_to_symlink) to not have to install stuff again each time you start the machine
+* In paperspace, you can create a file called .bash.local in storage which will be run everytime you start a notebook. Create symlinks there :)
+
+Terminal (bash?) tricks:
+
+* !! last command
+* !$ last token in last command
