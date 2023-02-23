@@ -47,3 +47,12 @@ Jupyter notebook tricks (given a function f):
 * f??: displays function source code on running
 * f: displays where the function is from and its parameters on running
 * f( and shift+tab: displays the same as f? in the active jupyter block (do not need to run it)
+* shift+m: merge blocks?
+* 0 0: restarts the kernal - nice to use when you want to re run everything
+* a hotkey for running everything is not set by default, but can be assigned through help > edit keyboard shortcuts > run all cells
+
+Python technicalities and related stuff:
+
+* Inside of a class, the class does not know about itself. For type hinting to work one has to wrap the class name in quotes. From [this clip](https://www.youtube.com/watch?v=67FdzLSt4aAt=30m30s)
+* fastcore.utils has functionality for defining funtions for a class outside of the class (like [extension functions in kotlin](https://kotlinlang.org/docs/extensions.html)?). This is done with the fastcore.utils.patch decorator. At this point python will know about the class, so no need to wrap type hint of the class in quotes
+* [showcase of using nbdev for testing](https://www.youtube.com/watch?v=67FdzLSt4aA&t=41m)
