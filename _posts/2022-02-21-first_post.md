@@ -40,3 +40,10 @@ Terminal tricks:
 * ctrl + k: delete everything right of the cursor
 
 For some more terminal tricks check out [this file](https://github.com/vskaret/configs/blob/master/bash_notes).
+
+Jupyter notebook tricks (given a function f):
+
+* f?: displays function signature, docstring, file and type on running
+* f??: displays function source code on running
+* f: displays where the function is from and its parameters on running
+* f( and shift+tab: displays the same as f? in the active jupyter block (do not need to run it)
