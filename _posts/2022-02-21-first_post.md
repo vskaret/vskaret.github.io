@@ -1,22 +1,22 @@
 # Hello world
 
-I'm a software developer from Mjøndalen in Norway. My first experience with programming was scripting VBA in Excel while studying economics. I remember working day and night scripting excel to automate a bunch of stuff for an assignment and really having a great time with it. Later I figured out that scripting excel was pretty much the only thing I enjoyed about the economics studies, so I went on to study computer science as well. I enjoyed computer science a lot, and this made me extra happy and relieved because of how boring I found economics studies. I think my biggest takeaway from studying economics for 3.5 years is that it is really boring to study economics.
+I'm a software developer from Mjøndalen in Norway. My first experience with programming was scripting VBA in Excel while studying economics. I remember working day and night scripting excel to automate a bunch of stuff for an assignment and really having a great time with it. Later I figured out that scripting excel was pretty much the only thing I enjoyed about the economics studies, so I went on to study computer science as well. I enjoyed computer science a lot, and this made me extra happy and relieved because of how boring I found economics studies.
 
 I'm currently following the [fast ai course](https://www.fast.ai/), and will hopefully post a lot about stuff related to that. Jeremy seems like a great teacher.
 
 Timestamps and links from the fast.ai live coding sessions (and sometimes other places) that might be useful.
 
-Session 1:
+**Session 1:**
 
 * [Install mamba](https://www.youtube.com/watch?v=56sIyFjihEc&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=32m) (python environment thingy)
 * There is a bunch of scripts automating getting setup stuff in fastai's [fastsetup repo](https://github.com/fastai/fastsetup), e.g. [setup-conda.sh](https://github.com/fastai/fastsetup/blob/master/setup-conda.sh) for installing mamba
 
-Session 2:
+**Session 2:**
 
 * [Using tmux](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=39m), [simple tmux cheatsheet](https://www.themoderncoder.com/simple-tmux-cheatsheet/) and [basic tmux configuration](https://www.themoderncoder.com/basic-tmux-configuration/)
 * [jupyter intro](https://www.youtube.com/watch?v=0pWjZByJ3Lk&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=2&t=49m)
 
-Session 3:
+**Session 3:**
 
 * [How to handle python environments with mamba in such a way that one does not need to freeze version numbers and thus do not need to rely as much on docker containers (specifically for data scientists? the point seems to be to facilitate rapid iteration)](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=12m)
 * [Setup a jupyter notebook in paperspace gradient](https://www.youtube.com/watch?v=B6BQiIgiEks&list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM&index=3&t=21m50s)
@@ -28,11 +28,11 @@ Session 3:
 * In paperspace, you can create a file called .bash.local in storage which will be run everytime you open the terminal. Create symlinks there :)
 * When opening a paperspace notebook, /run.sh is executed. This script can't be changed, but it will execute /storage/pre-run.sh which might be a better place to put the symlinks and stuff like that
 
-Session 4:
+**Session 4:**
 
 * Virtues of a great programmer: laziness, impatience and hubris. One way of being lazy is to learn stuff that is re-usable, such as using python for scripts rather than shell because python can be used for more purposes.
 
-Terminal tricks:
+**Terminal tricks:**
 
 * !! last command
 * !$ last token in last command
@@ -41,7 +41,7 @@ Terminal tricks:
 
 For some more terminal tricks check out [this file](https://github.com/vskaret/configs/blob/master/bash_notes).
 
-Jupyter notebook tricks (given a function f):
+**Jupyter notebook tricks (given a function f):**
 
 * f?: displays function signature, docstring, file and type on running
 * f??: displays function source code on running
@@ -51,8 +51,12 @@ Jupyter notebook tricks (given a function f):
 * 0 0: restarts the kernal - nice to use when you want to re run everything
 * a hotkey for running everything is not set by default, but can be assigned through help > edit keyboard shortcuts > run all cells
 
-Python technicalities and related stuff:
+**Python technicalities and related stuff:**
 
 * Inside of a class, the class does not know about itself. For type hinting to work one has to wrap the class name in quotes. From [this clip](https://www.youtube.com/watch?v=67FdzLSt4aAt=30m30s)
 * fastcore.utils has functionality for defining funtions for a class outside of the class (like [extension functions in kotlin](https://kotlinlang.org/docs/extensions.html)?). This is done with the fastcore.utils.patch decorator. At this point python will know about the class, so no need to wrap type hint of the class in quotes
 * [showcase of using nbdev for testing](https://www.youtube.com/watch?v=67FdzLSt4aA&t=41m)
+
+**Other:**
+
+* "When you’re trying to understand enough of a new codebase to make a specific PR, it’s best to use an editor which lets you jump to definitions to understand how the code works. Reading and experimenting in the notebooks is the best way to understand the bigger picture more thoroughly." [(from here)](https://forums.fast.ai/t/nbdev-v2-codebase-falls-short-of-literate-programming/103671/9)
