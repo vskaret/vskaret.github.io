@@ -2,9 +2,28 @@
 
 I'm a software developer from Mjøndalen in Norway. My first experience with programming was scripting VBA in Excel while studying economics. I remember working day and night scripting excel to automate a bunch of stuff for an assignment and really having a great time with it. Later I figured out that scripting excel was pretty much the only thing I enjoyed about the economics studies, so I went on to study computer science as well. I enjoyed computer science a lot, and this made me extra happy and relieved because of how boring I found economics studies.
 
+## FastAI
+
 I'm currently following the [fast ai course](https://www.fast.ai/), and will hopefully post a lot about stuff related to that. Jeremy seems like a great teacher.
 
-Timestamps and links from the fast.ai live coding sessions (and sometimes other places) that might be useful.
+### How to FastAI
+
+I liked these points on "how to do a fast.ai lesson" from [here](https://www.youtube.com/watch?v=gGxe2mN3kAg&t=17m30s):
+
+1. Watch lecture
+2. Run notebook and experiment
+3. Reproduce results
+4. Repeat with different dataset
+
+It is fine to not do all of the steps the first time you go through the course, but take it as far as you can and try to push yourself more and more on each iteration.
+
+I also liked this quote from a former student: "One of my favorite pieces of advice was from FastAI's Jeremy Howard. He told me to focus on making one really great project that showed off my skills. He says that so many people have many interesting but half-finished projects on github, and that it's so much better to have a single one that is really polished."
+
+I will to try to make something that assists players of the boardgame Twilight Imperium 4 by collecting data of the state of the game and then visualizing the data.  The reason for doing this specifically is that I enjoy playing TI4 a lot so it will hopefully give some extra motivation to finish the project. Also, TI4 is such a complex game with lots of different components, and it would be nice to have a tool that helped to keep track of it all. The first thing I want to try out is to keep track of the public objectives.
+
+### Notes from live coding sessions and more
+
+Timestamps and links from the fast.ai [live coding sessions](https://www.youtube.com/playlist?list=PLfYUBJiXbdtSLBPJ1GMx-sQWf6iNhb8mM) (and sometimes other places) that might be useful. Jeremy shows a lot of useful stuff in these sessions.
 
 **Session 1:**
 
