@@ -17,6 +17,8 @@ Paperspace has a free tier, but I had to sign up for the $8 a month Pro tier bef
 
 Note that they do have a [referral program](https://www.paperspace.com/referral-program) where you get $15 credit for each person you get to signup.
 
+If you have not signed up yet, you get $10 credits if you sign up through [this link](https://console.paperspace.com/signup?R=QQTNNPQ) (and I get $15 credits).
+
 ## How does a Paperspace machine work?
 
 Each machine you run is ephemeral, meaning everything you do there will be lost. However, there is a `/storage` folder on each machine which is stored persistently. Note that if you store more than your allocated amount inside of this folder, they will charge you $/GB.
