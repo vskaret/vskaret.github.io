@@ -117,9 +117,17 @@ Now, click File > Save Text (or Ctrl + S) to save the file.
 
 Then rename the file by right-clicking it and click rename (or left click and F2): "prerun.sh"
 
-`pre-run.sh` is a special file in paperspace which is run before a jupyter notebook instance is started.
+`pre-run.sh` is a special file in paperspace which is run before a jupyter notebook instance is started. It is executed from the `/run.sh` file in the section
 
-For the machine to be able to run this file, we will have to give it permission to execute it, so head back to the terminal and run the following commands.
+```sh
+if [ -f /storage/pre-run.sh ]; then
+    . /storage/pre-run.sh
+fi
+```
+
+This translates to "if `/storage/pre-run.sh` exists, execute it".
+
+For the machine to be able to run the `pre-run.sh` file, we will have to give it permission to execute it, so head back to the terminal and run the following commands.
 
 ```sh
 cd
