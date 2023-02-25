@@ -224,5 +224,3 @@ I had some experience with this at work where we've set up a server with the pur
 * expose the functionality above through an API (FastAPI) to be called from an orchestration tool
 
 It is certainly possible to get the same functionality with other languages, but I suspect it would often require more time to get it to work.
-
-I recommend watching the fastai live coding sessions because Jeremy shares a lot of knowledge tools and !
