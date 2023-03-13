@@ -62,6 +62,7 @@ For some more terminal tricks check out [this file](https://github.com/vskaret/c
 
 **Jupyter notebook tricks (given a function f):**
 
+* something. + click tab will show available methods for something
 * f?: displays function signature, docstring, file and type on running
 * f??: displays function source code on running
 * f: displays where the function is from and its parameters on running
