@@ -4,8 +4,6 @@ I wrote a blog post about it on my website a while ago, but I think I didn't man
 
 Luckily I stored it on my computer so I will just copy and paste it below!
 
-Guide for setting up and using a git repository for getting yahoo finance data!
-
 ## Introduction
 
 As a part of a hobby project with a friend where we need stonk data, we've created a [git repository](https://github.com/Travbula/yahoo-finance-warehouse) for fetching, storing and visualizing data from yahoo finance with some interesting tools.
