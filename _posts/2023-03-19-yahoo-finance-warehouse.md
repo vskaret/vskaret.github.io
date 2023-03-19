@@ -321,4 +321,4 @@ You can save the chart, which lets you add it to a dashboard later.
 
 ![35_lightdash_savechart.png](https://res.cloudinary.com/travbula/image/upload/v1668113231/35_lightdash_savechart_005a13f64d.png)
 
-If you've come this far, congratulations! You have set up your own data warehouse with data from yahoo finance. Further, you used the date inside of your warehouse to visualize something meaningful in a BI tool.
+If you've come this far, congratulations! You have set up your own data warehouse with data from yahoo finance. Further, you've used data inside of your warehouse to visualize something meaningful in a BI tool.
