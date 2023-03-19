@@ -323,6 +323,6 @@ You can save the chart, which lets you add it to a dashboard later.
 
 If you've come this far, congratulations! Not only have you set up your own data warehouse with data from yahoo finance, you've also managed to read through a long and way too boring how-to article. Further, you've used data inside of your warehouse to visualize something meaningful in a BI tool.
 
-As a bonus for soldiering through the post, especially for my Norwegian friends supporting Strømsgodset, I'll include this chat log with ChatGPT that displays how smart and full of wisdom it can be when given proper instructions:
+As a bonus for soldiering through the post, especially for my Norwegian friends supporting Strømsgodset, I'll include a chat log with ChatGPT that displays how smart and full of wisdom it can be when given proper instructions:
 
 ![chat](https://res.cloudinary.com/travbula/image/upload/v1679232555/chat_gpt_mif1_mpx1i6.png)
